@@ -5,127 +5,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meka Servival</title>
     <style>
+        /* 全局样式 */
         body {
-            font-family: 'Open Sans', sans-serif;
-            background-color: #f7f7f7;
-            margin: 40px;
-            padding-bottom: 80px;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
             color: #333;
+            line-height: 1.6;
         }
 
+        /* 容器 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* 头部样式 */
         header {
-            background-color: #3f51b5;
+            background: linear-gradient(135deg, #667eea, #764ba2);
             color: white;
             text-align: center;
-            padding: 20px 0;
-            border-radius: 8px;
-            margin-bottom: 20px;
+            padding: 40px 0;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
         header h1 {
-            font-size: 2.5em;
+            font-size: 3em;
             margin: 0;
+            font-weight: 700;
         }
 
         header p {
             font-size: 1.2em;
-            margin: 10px 0;
+            margin: 10px 0 0;
+            color: #e0e0e0;
         }
 
-        section {
-            background-color: white;
+        /* 内容块样式 */
+        .section {
+            background: white;
+            border-radius: 10px;
             padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
 
-        h2 {
-            color: #3f51b5;
-            font-size: 1.8em;
+        .section h2 {
+            color: #667eea;
+            font-size: 2em;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+
+        .section p {
             margin-bottom: 15px;
         }
 
-        p {
-            line-height: 1.6;
-            margin-bottom: 15px;
+        /* 列表样式 */
+        .section ul, .section ol {
+            margin-left: 20px;
         }
 
+        .section li {
+            margin-bottom: 8px;
+        }
+
+        /* 链接样式 */
         a {
-            color: #3f51b5;
+            color: #667eea;
             text-decoration: none;
+            font-weight: 500;
         }
 
         a:hover {
             text-decoration: underline;
         }
 
+        /* 按钮样式 */
+        .button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #764ba2;
+        }
+
+        /* 底部样式 */
         footer {
-            background-color: #282c34;
+            background: #2c3e50;
             color: white;
             text-align: center;
             padding: 20px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            margin: 0;
+            margin-top: 40px;
         }
 
         footer p {
+            margin: 0;
             font-size: 0.9em;
-            margin: 5px 0;
+        }
+
+        footer a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Meka Servival</h1>
-        <p>在 Meka Servival，每个方块都有故事</p>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Meka Servival</h1>
+            <p>在 Meka Servival，每个方块都有故事</p>
+        </header>
 
-    <section id="about">
-        <h2>关于</h2>
-        <p>Meka Servival 是一个公益的 Minecraft 离线生存服务器，自 2024 年 11 月 9 日创建。</p>
-        <p>服务器经历了 4 个阶段，分别为：</p>
-        <ul>
-            <li>1.18.2 Forge 服（已关闭）</li>
-            <li>1.20.1 乌托邦服（状态未知）</li>
-            <li>1.21 Paper 服（已关闭）</li>
-            <li>1.20.4 Paper 服（正在运行）</li>
-        </ul>
-        <p>加入服务器，开启你的冒险之旅吧！</p>
-    </section>
+        <section class="section" id="about">
+            <h2>关于 Meka Servival</h2>
+            <p>Meka Servival 是一个非营利的 Minecraft 生存服务器，成立于 2024 年 11 月 9 日。</p>
+            <p>服务器经历了多个版本的更新，包括：</p>
+            <ul>
+                <li>1.18.2 Forge 版（已停运）</li>
+                <li>1.20.1 乌托邦版（状态未知）</li>
+                <li>1.21 Paper 版（已停运）</li>
+                <li>1.20.4 Paper 版（已停运）</li>
+                <li>1.21.3 Paper 版（当前版本，欢迎加入！）</li>
+            </ul>
+            <p>加入我们的服务器，探索属于你的方块世界。</p>
+        </section>
 
-    <section id="statement">
-        <h2>声明</h2>
-        <p>"Minecraft" 以及 "我的世界" 是 Mojang AB 的商标，"Meka Servival" 和本网站与 Mojang 以及 Microsoft 没有任何从属关系。</p>
-        <p>"Meka Servival" 不是 Minecraft 官方服务器。</p>
-    </section>
+        <section class="section" id="disclaimer">
+            <h2>免责声明</h2>
+            <p>"Minecraft" 和 "我的世界" 是 Mojang AB 的注册商标。"Meka Servival" 与 Mojang 或 Microsoft 无任何关联。</p>
+            <p>"Meka Servival" 是一个独立的社区服务器，非 Minecraft 官方服务器。</p>
+        </section>
 
-    <section id="status">
-        <h2>服务器状态</h2>
-        <p>您可以通过以下链接检查服务器是否在线：</p>
-        <ul>
-            <li><a href="https://mcsrvstat.us/server/xcdeer.nas-cab.com:35535" target="_blank">Meka Servival 乌托邦服</a></li>
-            <li><a href="https://www.mcsv.top/server/vpac.shop" target="_blank">ip1</a>、<a href="https://www.mcsv.top/server/mc.vpac.shop" target="_blank">ip2</a>、<a href="https://www.mcsv.top/server/mc2.vpac.shop" target="_blank">ip3</a>Meka Servival 生存服（*IP 可能会变，如有变动请查看页脚）</li>
-        </ul>
-    </section>
+        <section class="section" id="status">
+            <h2>服务器状态检查</h2>
+            <p>您可以通过以下链接查看服务器是否在线：</p>
+            <ul>
+                <li><a href="https://mcsrvstat.us/server/xcdeer.nas-cab.com:35535" target="_blank">乌托邦服状态</a></li>
+                <li><a href="https://www.mcsv.top/server/vpac.shop" target="_blank">生存服 IP1</a>、<a href="https://www.mcsv.top/server/mc.vpac.shop" target="_blank">IP2</a>、<a href="https://www.mcsv.top/server/mc2.vpac.shop" target="_blank">IP3</a></li>
+            </ul>
+            <p>请注意，IP 地址可能会更改，具体信息请参考页脚说明。</p>
+        </section>
 
-    <section id="join-server">
-        <h2>如何加入服务器</h2>
-        <p>想要加入 Meka Servival 服务器，请按照以下步骤操作：</p>
-        <ol>
-            <li>点击下方按钮加入我们的 QQ 群。</li>
-            <li>在群内获取服务器的 IP 地址和整合包。</li>
-            <li>按照群内提供的指南进行操作，开始你的冒险之旅。</li>
-        </ol>
-        <p><a href="https://qm.qq.com/q/6Y3ABVnJ5e" target="_blank">加入 QQ 群</a></p>
-    </section>
+        <section class="section" id="join">
+            <h2>如何加入服务器</h2>
+            <p>加入 Meka Servival 服务器非常简单，只需以下步骤：</p>
+            <ol>
+                <li>点击下方按钮加入我们的 QQ 群。</li>
+                <li>在群内获取服务器的 IP 地址和相关资源。</li>
+                <li>按照群内的指引完成设置，开始你的冒险。</li>
+            </ol>
+            <p><a href="https://qm.qq.com/q/6Y3ABVnJ5e" target="_blank" class="button">立即加入 QQ 群</a></p>
+        </section>
+    </div>
 
     <footer>
-        <p>*如果您愿意帮忙检查我们的 IP 是否变动，请在变动时发送邮件至<a href="mailto:admin@beichen.icu">管理员</a>。</p>
-        <p>此页面参照 <a href="https://bugcraft.org/about" target="_blank">bugcraft.org/about</a> 编写。</p>
-        <p>Copyright © 2023 – 2025 <a href="https://meka-servival.xej.news" target="_blank">Meka Servival</a>. All rights reserved.</p>
+        <p>如发现 IP 地址有变动，请通过邮件通知我们：<a href="mailto:admin@beichen.icu">联系我们</a>。</p>
+        <p>本网站参考了 <a href="https://bugcraft.org/about" target="_blank">bugcraft.org/about</a> 的设计。</p>
+        <p>Copyright © 2023 – 2025 <a href="https://meka-servival.xej.news" target="_blank">Meka Servival</a>. 保留所有权利。</p>
     </footer>
 </body>
 </html>
