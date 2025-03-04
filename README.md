@@ -20,9 +20,7 @@ Furcraft 自开服以来总共有 3 个阶段，分别为 1.18.2 forge服（Dead
 
 ## 状态
 
-在 [ip](https://mcsrvstat.us/server/xcdeer.nas-cab.com:35535) Minecraft Server Status上检查Meka Servival乌托邦服 是否在线
-
-在 [ip](https://mcsrvstat.us/server/furcraft.top)（*ip可能会变，如果您愿意帮忙，请看页脚）Minecraft Server Status上检查FurCraft生存服 是否在线
+在 [status](https://status.furcraft.top)上检查 乌托邦服与生存服 是否在线
 
 ## 如何加入服务器
 
