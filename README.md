@@ -8,8 +8,6 @@ FurCraft的关于文档！
 
 Furcraft 是一个公益的 Minecraft 离线生存服务器，自 2024 年 11 月 9 日创建。
 
-Furcraft 自开服以来总共有 3 个阶段，分别为 1.18.2 forge服（Dead🔴）、1.20.1乌托邦服（Alive🟢）、1.21paper服（Alive🟢）
-
 加入服务器吧！
 
 ## 声明
