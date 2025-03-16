@@ -6,7 +6,7 @@ FurCraft的关于文档！
 
 ## 关于
 
-Furcraft 是一个公益的 Minecraft 离线生存服务器，自 2024 年 11 月 9 日创建。
+Furcraft 是一个公益的 Minecraft 生存服务器，使用LittleSkin & Official 鉴权，自 2024 年 11 月 9 日创建。
 
 加入服务器吧！
 
