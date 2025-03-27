@@ -21,6 +21,57 @@
             line-height: 1.6;
         }
 
+        /* 顶栏样式 */
+        .navbar {
+            background: linear-gradient(135deg, #764ba2, #3498db);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .logo-text {
+            color: white;
+            font-size: 1.5em;
+            font-weight: 700;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            padding: 8px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            text-decoration: none;
+        }
+
         /* 容器 */
         .container {
             max-width: 1200px;
@@ -150,6 +201,19 @@
     </style>
 </head>
 <body>
+    <!-- 顶栏 -->
+    <nav class="navbar">
+        <a href="#" class="logo">
+            <img src="./icon.png" alt="FurCraft Logo">
+            <span class="logo-text">FurCraft</span>
+        </a>
+        <div class="nav-links">
+            <a href="#">主页</a>
+            <a href="./links">友情链接</a>
+            <a href="https://qm.qq.com/q/6Y3ABVnJ5e" target="_blank">加入我们</a>
+        </div>
+    </nav>
+
     <div class="container">
         <header>
             <h1>FurCraft</h1>
