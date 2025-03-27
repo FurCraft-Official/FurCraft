@@ -146,8 +146,50 @@
             color: #764ba2; /* 悬停时颜色变化 */
             text-decoration: underline;
         }
+
+        /* 导航栏样式 */
+        .navbar {
+            background-color: #3498db; /* 背景颜色 */
+            overflow: hidden;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar li {
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+          }
+
+         .navbar a:hover {
+            background-color: #764ba2; /* 悬停时背景颜色变化 */
+         }
     </style>
 </head>
+<header>
+    <nav class="navbar">
+        <ul>
+            <li><a href="/index.html">主页</a></li>
+            <li><a href="./friendlinks.html">友情链接</a></li>
+            <li><a href="mailto:admin@beichen.icu">联系我们</a></li>
+        </ul>
+    </nav>
+</header>
 <body>
     <div class="container">
         <header>
