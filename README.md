@@ -18,7 +18,7 @@ Furcraft 是一个公益的 Minecraft 生存服务器，使用LittleSkin & Offic
 
 ## 状态
 
-在 [status](https://status.furcraft.top)上检查 乌托邦服与生存服 是否在线
+在 [status](https://status.furcraft.top)上检查 Forge服与生存服 是否在线
 
 ## 如何加入服务器
 
@@ -32,8 +32,8 @@ Furcraft 是一个公益的 Minecraft 生存服务器，使用LittleSkin & Offic
 
 ---
 
-*如果您愿意帮忙检查我们的ip是否变动，请在变动之时投送邮件至[管理员](mailto:admin@beichen.icu)*
+*如果您愿意帮忙检查我们的ip是否变动，请在变动之时投送邮件至[管理员](mailto:admin@furcraft.top)*
 
 此页面参照 bugcraft.org/about 编写
 
-Copyright © 2023 – 2025 [Meka Servival](meka-servival.xej.news) All rights reserved
+Copyright © 2023 – 2025 [FurCraft](https://furcraft.top) All rights reserved
