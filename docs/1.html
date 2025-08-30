@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="">
+  <head>
+    <style>
+      body {
+        position: relative;
+        z-index: 1;
+        background: transparent;
+      }
+
+      html::before,
+      html::after {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        filter: blur(5px);
+        z-index: 0;
+        transition: opacity 0.6s ease;
+        pointer-events: none;
+      }
+
+      html::before {
+        background-image: url('/bg-l.png');
+        opacity: 1;
+      }
+
+      html::after {
+        background-image: url('/bg-d.png');
+        opacity: 0;
+      }
+
+      html.dark::before { opacity: 0; }
+      html.dark::after { opacity: 1; }
+    </style>
+  </head>
+  <body>
+    <h1>Hello World</h1>
+    <button onclick="document.documentElement.classList.toggle('dark')">
+      切换深浅
+    </button>
+  </body>
+</html>

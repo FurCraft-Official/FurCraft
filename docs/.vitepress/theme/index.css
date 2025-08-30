@@ -1,0 +1,58 @@
+/* .vitepress/theme/index.css */
+html::before {
+  content: '';
+  position: fixed; /* 固定在视口 */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/bg-l.png) center/cover no-repeat;
+  filter: blur(5px);
+  z-index: -1; /* 保证内容在上面 */
+}
+
+/* 暗黑模式背景 */
+html.dark::before {
+  background: url(/bg-d.png) center/cover no-repeat;
+  filter: blur(5px);
+}
+
+
+.VPFeatures .container .items .item .VPLink {
+  border: 2px solid var(--vp-c-border);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.VPFeatures .container .items .item .VPLink:hover {
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.15);
+  border: 2px solid var(--vp-c-brand);
+  transform: translateY(-2px);
+}
+.VPFeatures{
+  margin: 1em 0;
+}
+.VPFooter{
+  padding: 1em 0 !important;
+}
+.VPFooter div p {
+  padding: 0 !important;
+}
+
+
+/* 暗色模式适配 */
+.dark .home-page .VPHome {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+/* 默认状态：滚动到顶部 */
+.VPNavBar .top {
+  background-color: transparent !important;
+}
+.VPNavBar:not(.top) {
+  background-color: rgba(255, 255, 255, 0.45) !important;
+  backdrop-filter: blur(10px);
+}
+.dark .VPNavBar:not(.top) {
+  background-color: rgba(0, 0, 0, 0.45) !important;
+  backdrop-filter: blur(10px);
+}
+
