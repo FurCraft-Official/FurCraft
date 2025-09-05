@@ -13,12 +13,6 @@ const links = [
     avatar: 'https://res.neokoni.ink/craft233/img/craft233_logo.svg',
     description: '简单纯粹，在未知中探索。在尝试中找到尽可能优的生存体验。与玩家一起，携手出发。',
     url: 'https://www.craft233.top/'
-  },
-  {
-    title: 'MCIKS',
-    avatar: 'https://www.furcraft.top/img/link/MCIKS.jpg',
-    description: '经典纯净原本生存生电服。',
-    url: 'https://mc.inter-knot.site/'
   }
 ]
 </script>
