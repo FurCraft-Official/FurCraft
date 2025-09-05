@@ -34,6 +34,4 @@ Furcraft 是一个公益的 Minecraft 生存服务器，使用LittleSkin & Offic
 
 *如果您愿意帮忙检查我们的ip是否变动，请在变动之时投送邮件至[管理员](mailto:admin@furcraft.top)*
 
-此页面参照 bugcraft.org/about 编写
-
 Copyright © 2023 – 2025 [FurCraft](https://furcraft.top) All rights reserved
