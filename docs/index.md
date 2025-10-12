@@ -26,7 +26,7 @@ features:
     details: 与朋友一起冒险，结识新伙伴。
 ---
 <div id="aaaa"></div>
-<ServerStatus api-url="https://mc.furapi.top/api/stats/furutp" />
+<ServerStatus api-url="https://mc.furapi.top/api/stats/furcraft" />
 <vdiv title="免责声明">
 "Minecraft" 和 "我的世界" 是 Mojang AB 的注册商标。"FurCraft" 与 Mojang 或 Microsoft 无任何关联。<br>"FurCraft" 是一个独立的社区服务器，非 Minecraft 官方服务器。
 </vdiv>
